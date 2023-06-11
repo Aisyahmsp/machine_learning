@@ -9,7 +9,7 @@ from sklearn.metrics import confusion_matrix, accuracy_score, recall_score, prec
 from sklearn.svm import SVC
 from sklearn.ensemble import RandomForestClassifier
 import altair as alt
-from scikitlearn.utils.validation import joblib
+from sklearn.utils.validation import joblib
 from PIL import Image
 
 
