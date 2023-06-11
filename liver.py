@@ -69,12 +69,7 @@ with preprocessing:
     X = df.drop(columns="Liver_disease")
     y = df.Liver_disease
    
-    le = preprocessing.LabelEncoder()
-    le.fit(y)
-    y = le.transform(y)
-    y
-
-    le.inverse_transform(y)
+   
 
     labels = pd.get_dummies(df.Liver_disease).columns.values.tolist()
     labels
