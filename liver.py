@@ -181,7 +181,7 @@ with implementation:
             ]])
         le = joblib.load("le.save")
 
-        if skor akurasi > akurasiii:
+        if skor_akurasi > akurasiii:
             model = joblib.load("svm.joblib")
 
         elif akurasiii > skor_akurasi:
