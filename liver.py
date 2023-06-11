@@ -39,7 +39,7 @@ with data:
 
     image = Image.open('liver.jpeg')
 
-    st.image(image, caption='stroke')
+    st.image(image, caption='liver')
 
     st.write("Dataset yang digunakan adalah Indian Patient Liver dataset yang diambil dari https://archive.ics.uci.edu/ml/datasets/ILPD+(Indian+Liver+Patient+Dataset)")
     st.write("Total datanya adalah 582 dengan data training 80% (415) dan data testing 20% (167)")
