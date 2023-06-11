@@ -79,7 +79,6 @@ with preprocessing:
     X = scaler.transform(X)
     X
  
-    le.inverse_transform(y)
     X.shape, y.shape
     
     X_train,X_test,y_train,y_test = train_test_split(X,y,test_size=0.2,random_state=4)
