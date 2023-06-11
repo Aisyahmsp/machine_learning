@@ -8,6 +8,7 @@ from numpy import array
 from sklearn.metrics import confusion_matrix, accuracy_score, recall_score, precision_score, f1_score
 from sklearn.svm import SVC
 from sklearn.ensemble import RandomForestClassifier
+from sklearn.datasets import make_classification
 import altair as alt
 from sklearn.utils.validation import joblib
 from sklearn.preprocessing import StandardScaler
