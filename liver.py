@@ -14,6 +14,8 @@ from sklearn.utils.validation import joblib
 from sklearn.preprocessing import StandardScaler
 from PIL import Image
 
+# display
+st.set_page_config(page_title="Liver Prediction", page_icon='liver.jpeg')
 
 primaryColor="#6eb52f"
 backgroundColor="yellow"
@@ -27,6 +29,7 @@ st.title("MACHINE LEARNING")
 st.title("Aplikasi Untuk Memprediksi Penyakit Liver")
 st.write("By: Aisyah Meta Sari Putri - 200411100031, dan Isnaini - 200411100038")
 st.write("Machine Learning B")
+st.write("========================================================================================")
 data,preprocessing, modeling, implementation = st.tabs(["Data", "Prepocessing", "Modeling", "Implementation"])
 
 df = pd.read_csv("https://archive.ics.uci.edu/ml/machine-learning-databases/00225/Indian%20Liver%20Patient%20Dataset%20(ILPD).csv")
@@ -38,10 +41,6 @@ df.columns = ['Age', 'Gender', 'Total_Bilirubin', 'Direct_Bilirubin', 'Alkaline_
 
 with data:
     st.write("""# Tentang Dataset dan Aplikasi""")
-
-    image = Image.open('liver.jpeg')
-
-    st.image(image, caption='liver')
 
     st.write("Dataset yang digunakan adalah Indian Patient Liver dataset yang diambil dari https://archive.ics.uci.edu/ml/datasets/ILPD+(Indian+Liver+Patient+Dataset)")
     st.write("Total datanya adalah 582 dengan data training 80% (415) dan data testing 20% (167)")
