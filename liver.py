@@ -1,13 +1,13 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-from scikitlearn import preprocessing
-from scikitlearn.preprocessing import MinMaxScaler
-from scikitlearn.model_selection import train_test_split
+from sklearn import preprocessing
+from sklearn.preprocessing import MinMaxScaler
+from sklearn.model_selection import train_test_split
 from numpy import array
-from scikitlearn.metrics import confusion_matrix, accuracy_score, recall_score, precision_score, f1_score
-from scikitlearn.svm import SVC
-from scikitlearn.ensemble import RandomForestClassifier
+from sklearn.metrics import confusion_matrix, accuracy_score, recall_score, precision_score, f1_score
+from sklearn.svm import SVC
+from sklearn.ensemble import RandomForestClassifier
 import altair as alt
 from scikitlearn.utils.validation import joblib
 from PIL import Image
