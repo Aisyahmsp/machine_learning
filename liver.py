@@ -10,6 +10,7 @@ from sklearn.svm import SVC
 from sklearn.ensemble import RandomForestClassifier
 import altair as alt
 from sklearn.utils.validation import joblib
+from sklearn.preprocessing import StandardScaler
 from PIL import Image
 
 
