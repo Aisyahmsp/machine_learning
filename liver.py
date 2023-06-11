@@ -25,7 +25,7 @@ st.title("MACHINE LEARNING")
 st.title("Aplikasi Untuk Memprediksi Penyakit Liver")
 st.write("By: Aisyah Meta Sari Putri - 200411100031, dan Isnaini - 200411100038")
 st.write("Machine Learning B")
-data,preporcessing, modeling, implementation = st.tabs(["Data", "Prepocessing", "Modeling", "Implementation"])
+data,preprocessing, modeling, implementation = st.tabs(["Data", "Prepocessing", "Modeling", "Implementation"])
 
 df = pd.read_csv("https://archive.ics.uci.edu/ml/machine-learning-databases/00225/Indian%20Liver%20Patient%20Dataset%20(ILPD).csv")
 # Memberikan nama fitur pada tiap kolom dataset
