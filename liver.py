@@ -23,9 +23,6 @@ secondaryBackgroundColor="#e0e0ef"
 textColor="#262730"
 font="sans serif"
 
-
-
-st.title("MACHINE LEARNING")
 st.title("Aplikasi Untuk Memprediksi Penyakit Liver")
 st.write("By: Aisyah Meta Sari Putri - 200411100031, dan Isnaini - 200411100038")
 st.write("Machine Learning B")
